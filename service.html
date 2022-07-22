@@ -1,0 +1,156 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/folder/CSS/main.css">
+    <link rel="stylesheet" href="/folder/CSS/reponsive.css">
+    <link rel="stylesheet" href="/folder/fonts/themify-icons/themify-icons.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.js"></script>
+
+    <title>Leospa - Clean & Minimal</title>
+</head>
+<body class="services-page">
+    <!-- header -->
+    <header class="header">
+        <div class="container">
+            <div class="row header-item">
+                <div class="col-md-3">
+                    <a href="index.html" class="logo"><img src="/folder/img/logo.png" alt=""></a>
+                </div>
+                <div class="col-md-9">
+                    <div class="nav">
+                        <a href="#" class="mobile-menu"><i class="ti-menu"></i></a>
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="#">featoure</a></li>
+                            <li><a href="service.html">service</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!-- procedures -->
+    <section class="procedures">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-8 col-md-10 m-auto">
+                    <div class="sec-heading">
+                        <h3 class="sec-title">Popular Procedures</h3>
+                        <p>To doesn't his appear replenish together called he of mad place won't wherein blessed second every wherein were meat kind wherein and martcin</p>
+                        
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <article class="post">
+                        <img src="/folder/img/post1.jpg" alt="">
+                        <h4>
+                            <a href="#">Massage Therapy</a>
+                        </h4>
+                        <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                        <a href="#" class="btn btn-round">read more</a>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="post">
+                        <img src="/folder/img/post2.jpg" alt="">
+                        <h4>
+                            <a href="#">Beauty Care</a>
+                        </h4>
+                        <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                        <a href="#" class="btn btn-round">read more</a>
+                    </article>
+                </div>
+                <div class="col-md-4">
+                    <article class="post">
+                        <img src="/folder/img/post3.jpg" alt="">
+                        <h4>
+                            <a href="#">Executive Reflexology</a>
+                        </h4>
+                        <p>Living winged said you darkness you're divide gathered and bring one seasons face great dr Waters firmament place which.</p>
+                        <a href="#" class="btn btn-round">read more</a>
+                    </article>
+                </div>
+            </div>
+        </div>
+    </section>
+    <!-- appointment -->
+    <section class="appointment">
+        <div class="appointment-wrap">
+            <figure>
+                <img src="/folder/img/appointment/appointment-img.jpg" alt="">
+            </figure>
+            <div class="appointment-form">
+                <form action="/folder/js/scripts.js" class="contact-form" name="contactform" method="post" id="apoint-form">
+                    <div class="form-field half-width">
+                        <input type="text" placeholder="NAME" name="name" required id="name">
+                        <input type="email" placeholder="Email address" name="email" required id="email">
+                    </div>
+                    <div class="form-field half-width">
+                        <div class="select-field">
+                            <select name="service" id="service">
+                                <option value="">Select service</option>
+                                <option value="nomal">Nomal service</option>
+                                <option value="vip">VIP service</option>
+                            </select>
+                        </div>
+                        <input type="tel" placeholder="Phone Number" name="number" id="number">
+                    </div>
+                    <div class="form-field half-width">
+                        <input type="date" placeholder="date" name="date" id="date">
+                        <input type="time" placeholder="time" name="time" id="time">
+                    </div>
+                    <div class="form-field">
+                        <textarea name="notes" placeholder="Your notes" id="comments"></textarea>
+                    </div>
+                    <button class="btn btn-round" id="asubmit">Make an Appointment</button>
+                    
+                    <div id="amessage"></div>
+                </form>
+            </div>
+        </div>
+    </section>
+    <!-- footer -->
+    <section class="footer">
+        <div class="container">
+            <div class="row">
+                <div class="col-12 text-center">
+                    <a href="index.html" class="logo foo-logo">
+                        <img src="/folder/img/logo.png" alt="">
+                    </a>
+                    <nav class="foo-nav">
+                        <ul>
+                            <li><a href="index.html">home</a></li>
+                            <li><a href="about.html">about</a></li>
+                            <li><a href="#">featoure</a></li>
+                            <li><a href="service.html">service</a></li>
+                            <li><a href="contact.html">contact</a></li>
+                        </ul>
+                    </nav>
+                    <div class="foo-social">
+                        <a href="#"><i class="ti-facebook"></i></a>
+                        <a href="#"><i class="ti-twitter"></i></a>
+                        <a href="#"><i class="ti-google"></i></a>
+                        <a href="#"><i class="ti-instagram"></i></a>
+                    </div>
+                    <p class="copyright">
+                        @ COPYRIGHT 2019 <a href="https://themeies.com">themeies.com</a> ALL RIGHTS RESERVED.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+    <script>
+        $(document).ready(function(){
+            $('.mobile-menu').click(function(){
+                $('.nav ul').slideToggle();
+            });
+        });
+    </script>
+</body>
+</html>
